@@ -12,7 +12,7 @@ const limiter = rateLimit({
 });
 
 // Apply the rate limiter to all requests
-// app.use(limiter);
+app.use(limiter);
 
 const checkURLValidity = async(req, res)=> {
 
