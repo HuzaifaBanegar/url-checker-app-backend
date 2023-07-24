@@ -5,6 +5,9 @@ const fs= require('fs');
 const rateLimit = require('express-rate-limit'); 
 const https= require('https');
 const validator = require('validator');
+const cors= require('cors');
+
+app.use(cors());
 
 const limiter = rateLimit({
   windowMs: 5 * 60 * 1000, // 5 minutes
