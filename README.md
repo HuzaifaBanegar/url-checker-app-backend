@@ -20,9 +20,9 @@ Deployment -> Netlify for Frontend and Render for Backend
 
 Simple Method of use:
 
-NOTE: PLEASE INSTALL ALLOW CORS extension in your Chrome browser(preferable)
-Go to the netlify link: https://url-checker-app.netlify.app
-Try out the app. Please let me know if it can be improved in any ways :)
+1. It is preferrable to install ALLOW CORS extension in your Chrome browser
+2. Go to the netlify link: https://url-checker-app.netlify.app
+3. Try out the app. Please let me know if it can be improved in any ways :)
 
 
 In this we will go through the backend part:
